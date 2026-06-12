@@ -4,28 +4,23 @@ This project is a simple implementation of the classic FizzBuzz problem.
 
 Problem Statement
 
-Print numbers from 1 to 100 with the following rules:
+Print numbers from 1 to 100 with rules:
 
-If a number is divisible by 3, print "Fizz"
-If a number is divisible by 5, print "Buzz"
-If a number is divisible by both 3 and 5, print "FizzBuzz"
-Otherwise, print the number itself
+3 → Fizz
+5 → Buzz
+3 and 5 → FizzBuzz
+otherwise print number
+
+
 How to Run
+Make sure Python is installed.
 
-Make sure you have Python installed.
 
-Run the application:
-
+Run:
 python app/main.py
+
+
 Expected Output
-
-The program prints numbers from 1 to 100, replacing:
-
-Multiples of 3 → "Fizz"
-Multiples of 5 → "Buzz"
-Multiples of both → "FizzBuzz"
-
-Example:
 
 1
 2
@@ -39,6 +34,8 @@ Fizz
 Buzz
 FizzBuzz
 ...
+
+
 Project Structure
 fizzbuzz-assignment/
 │
@@ -51,5 +48,7 @@ fizzbuzz-assignment/
 │
 ├── Dockerfile
 ├── requirements.txt
+├── .gitignore
+└── README.md
 ├── .gitignore
 └── README.md
