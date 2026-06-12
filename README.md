@@ -50,13 +50,13 @@ FizzBuzz
 
 ```
 fizzbuzz-assignment/
+
+└── app/
+├── api/
 ├── app/
-│   ├── __init__.py
-│   └── main.py
+├── core/
+├── services/
 ├── tests/
-│   └── test_fizzbuzz.py
-├── Dockerfile
-├── requirements.txt
-├── .gitignore
-└── README.md
+├── init.py
+└── main.py
 ```
