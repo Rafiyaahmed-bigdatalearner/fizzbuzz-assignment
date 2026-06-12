@@ -52,11 +52,11 @@ FizzBuzz
 fizzbuzz-assignment/
 
 └── app/
-├── api/
-├── app/
-├── core/
-├── services/
-├── tests/
-├── init.py
-└── main.py
+    ├── api/
+    ├── app/
+    ├── core/
+    ├── services/
+    ├── tests/
+    ├── __init__.py
+    └── main.py
 ```
