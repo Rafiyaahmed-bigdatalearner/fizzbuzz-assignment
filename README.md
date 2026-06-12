@@ -18,11 +18,11 @@ Print numbers from 1 to 100 with the following rules:
 ## How to Run
 
 Make sure you have Python installed.
-
 Run the application:
 
-```bash
 python app/main.py
+
+
 Expected Output
 
 The program prints numbers from 1 to 100, replacing:
@@ -30,8 +30,6 @@ The program prints numbers from 1 to 100, replacing:
 Multiples of 3 → "Fizz"
 Multiples of 5 → "Buzz"
 Multiples of both → "FizzBuzz"
-
-Example:
 
 1
 2
@@ -45,6 +43,8 @@ Fizz
 Buzz
 FizzBuzz
 ...
+
+
 Project Structure
 fizzbuzz-assignment/
 │
