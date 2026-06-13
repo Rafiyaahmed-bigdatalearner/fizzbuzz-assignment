@@ -1,62 +1,38 @@
-# FizzBuzz Assignment
+# FizzBuzz API (FastAPI)
 
-This project is a simple implementation of the classic FizzBuzz problem.
+This project implements a configurable FizzBuzz REST API using FastAPI.
 
-## Problem Statement
+---
 
-Print numbers from 1 to 100 with the following rules:
+## 🚀 Features
 
-* If a number is divisible by 3, print "Fizz"
-* If a number is divisible by 5, print "Buzz"
-* If a number is divisible by both 3 and 5, print "FizzBuzz"
-* Otherwise, print the number itself
+- REST API endpoint for FizzBuzz logic
+- Configurable parameters via query string
+- Health check endpoint
+- Input validation
+- Unit and integration tests
+- Dockerized application
+- Logging support
 
-## How to Run
+---
 
-Make sure Python is installed.
+## 📌 Problem Statement
 
-Run the application:
+Given:
+- int1, int2 (divisors)
+- limit (upper bound)
+- str1, str2 (replacement strings)
 
-```
-python app/main.py
-```
+Return numbers from 1 to `limit` with rules:
+- multiples of int1 → str1
+- multiples of int2 → str2
+- multiples of both → str1 + str2
+- otherwise → number
 
-## Expected Output
+---
 
-The program prints numbers from 1 to 100, replacing:
+## 📡 API Endpoints
 
-* Multiples of 3 → Fizz
-* Multiples of 5 → Buzz
-* Multiples of both 3 and 5 → FizzBuzz
+### 🔹 1. FizzBuzz Endpoint
 
-Example:
-
-```
-1
-2
-Fizz
-4
-Buzz
-Fizz
-7
-8
-Fizz
-Buzz
-FizzBuzz
-...
-```
-
-## Project Structure
-
-```
-fizzbuzz-assignment/
-
-└── app/
-    ├── api/
-    ├── app/
-    ├── core/
-    ├── services/
-    ├── tests/
-    ├── __init__.py
-    └── main.py
-```
+**URL:**
